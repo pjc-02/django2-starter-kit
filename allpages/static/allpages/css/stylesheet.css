@@ -1,0 +1,50 @@
+/*site wide style sheet*/ 
+
+/*google fonts*/
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+/* dark color:black
+   light color:silver
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Code+Pro:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background: mediumseagreen;
+    /*background: linear-gradient(#91ff99,#1a1a1a) fixed;*/
+}
+h1,h2,h3
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: lrem 0 0 0;
+    
+}
+code
+{
+    font-family: 'Source Code Pro', monospace;
+
+}
+.nav{
+  color: black;
+}
+
+.linkedin-link {
+    display: inline-block;
+    font-size: 2rem;
+    color:black;
+  }
+  
+  .linkedin-link:hover {
+    color:black;
+  }
+  
+  .fa-linkedin:before {
+    vertical-align: middle;
+  }
+  
